@@ -106,7 +106,24 @@ print(df.head(5))
 ![image png (1)](https://github.com/user-attachments/assets/7a4bc8b5-2a5a-4a80-99e3-781c25cd5be7)
 
 
-Text Classification and Analysis on Persian Comments
+
+# Persian Text Preprocessing
+📂 Source Files
+| File                            | Description                                  |
+| ------------------------------- | -------------------------------------------- |
+| **FarsiLanguageRecognition.py** | Detect Persian language                      |
+| **Normalize.py**                | Basic text normalization                     |
+| **RemoveDiacritics.py**         | Remove diacritic marks                       |
+| **RemovePunctuations.py**       | Remove punctuation marks                     |
+| **RemoveRepeatingChar.py**      | Remove repeating characters                  |
+| **Informal2Formal.py**          | Convert informal words to formal equivalents |
+| **Tokenize.py**                 | Persian tokenizer                            |
+| **RemoveStopWords.py**          | Remove stopwords                             |
+| **Lemmatizer.py**               | Word lemmatization                           |
+| **PreprocessPipeline.py**       | Comprehensive preprocessing pipeline         |
+
+
+### Text Classification and Analysis on Persian Comments
 📌 Project Overview
 
 This project focuses on data preprocessing, exploratory analysis, and machine learning classification for Persian text data. The workflow includes cleaning raw comments, generating word clouds, training machine learning models, and evaluating results.
