@@ -88,6 +88,10 @@ print("Duplicate rows:", df.duplicated().sum())
 # 4. Preview some samples
 print(df.head(5))
 
+![image png](https://github.com/user-attachments/assets/d1dd3cc5-9dbd-4123-bf74-27d5de7723ee)
+
+![image png (1)](https://github.com/user-attachments/assets/7a4bc8b5-2a5a-4a80-99e3-781c25cd5be7)
+
 
 Text Classification and Analysis on Persian Comments
 📌 Project Overview
