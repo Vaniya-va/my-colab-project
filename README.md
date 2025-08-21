@@ -128,7 +128,19 @@ print(df.head(5))
 
 This project focuses on data preprocessing, exploratory analysis, and machine learning classification for Persian text data. The workflow includes cleaning raw comments, generating word clouds, training machine learning models, and evaluating results.
 
-The main objective is to demonstrate how preprocessing and feature engineering affect the quality of text classification models.
+
+
+# 📂 Stopword Resources
+| File / Folder           | Description                              |
+| ----------------------- | ---------------------------------------- |
+| **get\_stopwords.py**   | Load stopword list                       |
+| **persian\_stopwords/** | Directory containing stopword text files |
+| ├── `chars.txt`         | Character-based stopwords                |
+| ├── `nonverbal.txt`     | Non-verbal stopwords                     |
+| ├── `persian.txt`       | General Persian stopwords                |
+| ├── `short.txt`         | Short/abbreviated stopwords              |
+| └── `verbal.txt`        | Verbal stopwords                         |
+
 
 ⚙️ Features Implemented
 
