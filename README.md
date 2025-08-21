@@ -1,7 +1,7 @@
 # my-colab-project
-Part 1: Suitable Python Frameworks for This Dataset
+# Part 1: Suitable Python Frameworks for This Dataset
 
-pandas
+## pandas
 📦 The most popular library for loading, processing, and analyzing tabular data such as CSV and Excel.
 Example (used in this project):
 
@@ -9,59 +9,72 @@ import pandas as pd
 df = pd.read_excel("filename.xlsx")
 
 
-openpyxl / xlrd
+## openpyxl / xlrd
 📦 Libraries for directly reading Excel files. Often used as backends with pandas.
 Example:
 
 df = pd.read_excel("file.xlsx", engine="openpyxl")
 
 
-matplotlib / seaborn
+## matplotlib / seaborn
 📊 Used for visualization and statistical plots (e.g., label distribution, sentence length, histograms, etc.).
 
-scikit-learn
+## scikit-learn
 🤖 Provides machine learning and statistical analysis tools. Also supports text vectorization (TF-IDF, CountVectorizer, etc.).
 
-NLTK / Hazm
+## NLTK / Hazm
 📖 For Natural Language Processing (NLP).
+🔤 Libraries for text preprocessing (especially Persian): tokenization, normalization, stemming, and punctuation removal.
 
 NLTK: mainly for English (tokenization, POS tagging, stopword removal, etc.).
 
 Hazm: specialized for Persian (normalization, stemming, tokenization).
 
-🔹 Part 2: Exploratory Data Analysis (EDA)
+# Part 2: Exploratory Data Analysis (EDA)
 
-Here is a complete EDA plan used in this project:
+## The EDA process includes:
 
-Check the number of samples per label
+1) Checking the number of samples for each label.
 
-How many comments exist in each category.
+2) Measuring comment lengths (both words and characters).
 
-Analyze text length
+3) Identifying duplicate or missing values.
 
-Number of words and characters in each comment.
+4) Visualizations: label distribution, comment length distribution.
 
-Check for duplicates and missing values
+5) Displaying random samples from the dataset.
 
-Drop empty or repeated rows.
+### Here is a complete EDA plan used in this project:
 
-Visualizations
+1) Check the number of samples per label
 
-Distribution of labels (bar chart).
+2) How many comments exist in each category.
 
-Distribution of text lengths (histogram/boxplot).
+3) Analyze text length
 
-Preview a few samples
+4) Number of words and characters in each comment.
 
-Inspect some comments with their labels for better understanding.
+5) Check for duplicates and missing values
 
-📊 Example EDA code (simplified):
+6) Drop empty or repeated rows.
+
+7) Visualizations
+
+8) Distribution of labels (bar chart).
+
+9) Distribution of text lengths (histogram/boxplot).
+
+10) Preview a few samples
+
+11) Inspect some comments with their labels for better understanding.
+
+# 📊 Example EDA code (simplified):
 
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Load dataset
+## Load dataset
 df = pd.read_excel("filename.xlsx")
 
 # 1. Label distribution
